@@ -1,2 +1,2 @@
 # sub-Repository
-実験コード
+This is experimental code. It also serves as a personal memo.

@@ -120,6 +120,8 @@ Apply conditional formatting to other metrics (humidity, wind speed)
 
 Schedule automatic execution (cron / task scheduler)
 
+-----------------Jaoanese------------------------------------------
+
 天気情報取得＆Excel出力（API練習）
 概要
 

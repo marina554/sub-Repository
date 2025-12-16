@@ -1,3 +1,125 @@
+Weather Data Fetch & Excel Export (API Practice)
+Overview
+
+This program is a sample Python script that uses the OpenWeatherMap API to fetch weather information for multiple cities and export the results to an Excel (.xlsx) file.
+
+The retrieved data is sorted by temperature, and cells with temperatures of 25°C or higher are highlighted in red.
+
+The purpose of this project is to practice:
+
+API communication
+
+Data processing
+
+Excel file generation and formatting
+
+Technologies & Libraries
+
+Python 3.x
+
+requests (API communication)
+
+pandas (data processing)
+
+openpyxl (Excel file operations)
+
+OpenWeatherMap API
+
+Setup
+1. Install Required Libraries
+
+Run the following command to install the necessary libraries:
+
+pip install requests pandas openpyxl
+
+2. Get an OpenWeatherMap API Key
+
+Register on the OpenWeatherMap official website
+
+Generate an API key
+
+Insert your API key into the following part of the code:
+
+api_key = "YOUR_API_KEY_HERE"
+
+Program Details
+Target Cities
+cities = ["Tokyo", "Osaka", "Sapporo", "Nagoya", "Fukuoka"]
+
+Retrieved Weather Data
+
+City name
+
+Weather description (Japanese)
+
+Temperature (°C)
+
+Feels-like temperature (°C)
+
+Humidity (%)
+
+Wind speed (m/s)
+
+Atmospheric pressure (hPa)
+
+Processing Flow
+
+Send requests to the OpenWeatherMap API
+
+Retrieve weather data in JSON format
+
+Convert the data into a pandas DataFrame
+
+Sort the data by temperature (descending order)
+
+Export the data to an Excel file
+
+Highlight cells with temperatures ≥ 25°C in red
+
+Output File
+
+File name: weather_multi.xlsx
+
+Contents:
+
+Weather data for each city
+
+Temperature cells highlighted in red when ≥ 25°C
+
+Example Output
+Cells with temperatures of 25°C or higher have been highlighted in red:
+/content/weather_multi.xlsx
+
+Learning Points
+
+How to use a REST API
+
+Handling JSON data in Python
+
+Data processing with pandas
+
+Automatic Excel file generation and formatting
+
+Basic API error handling
+
+Notes
+
+Do not share your API key publicly
+
+The free OpenWeatherMap plan has API call limits
+
+An internet connection is required
+
+Possible Enhancements
+
+Allow users to input cities dynamically
+
+Support CSV output
+
+Apply conditional formatting to other metrics (humidity, wind speed)
+
+Schedule automatic execution (cron / task scheduler)
+
 天気情報取得＆Excel出力（API練習）
 概要
 
